@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>AI Telephone Chatbot Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <div class="logo">
+            <a href="https://github.com/ahernandezjr/" class="icon">
+                <span class="fab fa-github"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/alexander-hernandez-jr/" class="icon">
+                <span class="fab fa-linkedin"></span>
+            </a>
+            <a href="mailto:ahernandezjr0@gmail.com" class="icon">
+                <span class="fas fa-envelope"></span>
+            </a>
+        </div>
+        <h1><a href="index.html">A. Hernandez</a></h1>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+            </ul>
+            <a href="#" class="close">Close</a>
+        </div>
+    </nav>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>AI-Powered Conversation Chatbot</h2>
+                <p>An automated chatbot system built to handle customer inquiries and schedule appointments through natural conversations utilizing LLM's.</p>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="wrapper">
+            <div class="inner">
+
+                <h3 class="major">Project Goals</h3>
+                <p>This project aims to streamline customer interactions using AI and telephony services. It allows users to engage with the chatbot via phone calls, respond to queries, and even schedule appointments by leveraging ChatGPT and a web-based audio framework for efficient conversation handling.</p>
+
+                <section id="Demonstration" class="features">
+                    <article>
+                        <a href="#features" class="image"><img src="/images/phonecall.jpg" alt="Chatbot Architecture Diagram" /></a>
+                        <h3 class="major">Phone Connection</h3>
+                        <p>The AI chatbot connects to real users through telephone, analyzing voice commands and just as easily responding.</p>
+                    </article>
+                    <article>
+                        <a href="#features" class="image"><img src="/images/google.jpg" alt="Scheduler Integration" /></a>
+                        <h3 class="major">API Integration</h3>
+                        <p>The chatbot uses multiple APIs, such as Azure for voice recognition, ElevenLabs for voice generation, and Google Calendar API to retrieve available times and confirm appointments with customers.</p>
+                    </article>
+                </section>
+
+                <h3 class="major">Key Features</h3>
+                <ul>
+                    <li>Natural Language Processing for real-time conversations</li>
+                    <li>Twilio API integration for call handling</li>
+                    <li>Google Calendar integration for scheduling appointments</li>
+                    <li>Custom audio prompts and Text-to-Speech (TTS) responses</li>
+                    <li>Flexible architecture allowing local or cloud-based deployment</li>
+                </ul>
+
+                <h3 class="major">How It Works</h3>
+                <p>Once a call is initiated, the system starts with an introductory message, handles customer queries, and guides them through a conversation flow based on predefined intents (e.g., asking questions, scheduling appointments). By utilizing neural networks, the system can accurately interpret customer inputs and provide dynamic responses.</p>
+                <p>A RAG process using TF-IDF performs efficient querying on scraped web-pages -- in this case, 150+ scraped company web pages.</p>
+
+                <section id="cloudlocal" class="features">
+                    <article>
+                        <a href="#cloudlocal" class="image"><img src="/images/womanonphone.jpg" alt="Call Flow" /></a>
+                        <h3 class="major">Conversation Flow</h3>
+                        <p>Twilio integrations enable a structured flow for the customer's call, from greeting to handling specific inquiries and finalizing appointments or call terminations.</p>
+                    </article>
+                    <article>
+                        <a href="#cloudlocal" class="image"><img src="/images/robot.jpg" alt="Text-to-Speech Integration" /></a>
+                        <h3 class="major">Text-to-Speech & Recognition</h3>
+                        <p>Using ElevenLabs TTS and Azure audio recognition, the system can convert text to lifelike speech to answer questions and accurately process customer responses.</p>
+                    </article>
+                </section>
+
+                <h3 class="major">Additional Capabilities</h3>
+                <p>The chatbot supports a variety of capabilities, including:</p>
+                <ul>
+                    <li>Handling invalid responses and repeating prompts when necessary</li>
+                    <li>Logging call information for further analysis and improvements</li>
+                    <li>Flexible audio file management for customized responses</li>
+                </ul>
+
+                <h3 class="major">Deployment</h3>
+                <p>Maintained a Docker image to deploy as an Azure App Service utilizing CI/CD for seamless updates and scalability.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="inner">
+            <h2 class="major">Get In Touch!</h2>
+            <p>Interested in discussing this project or scheduling a demo? Feel free to contact me!</p>
+            <ul class="copyright">
+                <li>Alexander Hernandez Jr.</li>
+                <li>AI and Data Engineer</li>
+                <li>Email: <a href="mailto:ahernandezjr0@gmail.com">ahernandezjr0@gmail.com</a> | Phone: 219-765-2438</li>
+                <li>Location: Crown Point, IN</li>
+                <li>GitHub: <a href="https://github.com/ahernandezjr">github.com/ahernandezjr</a></li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

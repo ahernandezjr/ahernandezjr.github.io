@@ -23,7 +23,7 @@ This website showcases a collection of personal data engineering projects. It in
 
 ### 2. AI-Powered Conversation Chatbot
    - A chatbot project integrating Twilio API, ChatGPT, and NLP techniques (TF-IDF) to handle customer interactions and scheduling.
-   - GitHub: https://github.com/ahernandezjr
+   - Demo: [DEXTER Demo](/dexter_demo.mp4)
 
 ### 3. Fungi Article Acquisition Project
    - Automates the collection and processing of research papers related to fungal species for bioinformatics purposes.

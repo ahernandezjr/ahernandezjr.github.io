@@ -1,160 +1,236 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>NBA Analytics Project Overview</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<title>NBA Analytics Project - Alexander Hernandez Jr.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="NBA Analytics Project - Alexander Hernandez Jr." />
+<meta name="keywords" content="NBA analytics, data engineering, machine learning, Azure, ETL pipeline" />
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<style>
+.sectiontitle {
+  margin: 40px 0;
+  padding: 20px 0;
+  border-bottom: 2px solid #333;
+}
+.sectiontitle h6 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.project-section {
+  background: #2c2c2c;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  color: #ffffff;
+}
+.project-section h6 {
+  color: #ffffff;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.project-section ul {
+  margin-left: 20px;
+  color: #ffffff;
+}
+.project-section li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.project-section p {
+  color: #ffffff;
+  opacity: 0.9;
+}
+.figure-caption {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.figure-caption h6 {
+  color: white;
+  margin-bottom: 5px;
+  border-bottom: none;
+}
+.video-demo {
+  background: #000;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+</style>
 </head>
-<body class="is-preload">
-
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-
-        <!-- Header -->
-        <header id="header" class="alt">
-            <div class="logo">
-                <a href="https://github.com/ahernandezjr/" class="icon">
-                    <span class="fab fa-github"></span>
-                </a>
-                <a href="https://www.linkedin.com/in/alexander-hernandez-jr/" class="icon">
-                    <span class="fab fa-linkedin"></span>
-                </a>
-                <a href="mailto:ahernandezjr0@gmail.com" class="icon">
-                    <span class="fas fa-envelope"></span>
-                </a>
-            </div>
-            <h1><a href="index.html">A. Hernandez</a></h1>
-            <nav>
-                <a href="#menu">Menu</a>
-            </nav>
-        </header>
-
-        <!-- Menu -->
-        <nav id="menu">
-            <div class="inner">
-                <h2>Menu</h2>
-                <ul class="links">
-                    <li><a href="index.html">Homepage</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                </ul>
-                <a href="#" class="close">Close</a>
-            </div>
-        </nav>
-
-        <!-- Wrapper -->
-        <section id="wrapper">
-            <header>
-                <div class="inner">
-                    <h2>NBA Analytics Project Overview</h2>
-                    <p>Leveraging advanced data engineering techniques to analyze NBA player statistics and uncover valuable insights.</p>
-                </div>
-            </header>
-
-            <!-- Content -->
-            <div class="wrapper">
-                <div class="inner">
-
-                    <h3 class="major">Project Goals</h3>
-                    <p>The primary goal of this project is to analyze NBA player performance and determine the most valuable players for the Detroit Pistons. By leveraging both local and cloud-based data engineering solutions, the project empowers users with flexible options for processing and analyzing data at scale. The inclusion of neural networks for predictive analysis and a PowerBI dashboard for visual representation ensures a comprehensive solution for basketball analytics.</p>
-                    
-                    <h4>ETL Medallion Pipeline</h4>
-                    <p>Designed an 8-step ETL Medallion pipeline using Azure SQL Server, Azure Data Lake, Azure Data Factory, Databricks, and Synapse database, ending with Power BI dashboard visualizations.</p>
-
-                    <section id="Demonstration" class="features">
-                        <article>
-                            <a href="#features" class="image"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="Project diagram" /></a>
-                            <h3 class="major">Project Diagram</h3>
-                        </article>
-                        <article>
-                            <a href="#features" class="image"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/model_predictions.png?raw=true" alt="Model Predictions" /></a>
-                            <h3 class="major">Model Predictions</h3>
-                        </article>
-                    </section>
-
-                    <h3 class="major">Included in the Project</h3>
-                    <p>This project offers a complete package that includes the following components:</p>
-                    <ul>
-                        <li>Data Collection and Processing Pipelines</li>
-                        <li>Cloud-based Data Engineering using Microsoft Azure</li>
-                        <li>Local Data Engineering setup</li>
-                        <li>Neural Network Models for Predictive Analysis</li>
-                        <li>PowerBI Dashboard for Data Visualization</li>
-                    </ul>
-
-                    <h3 class="major">Player Analysis</h3>
-                    <p>Analyzed 12,000+ player observations using Time-Series (LSTM) and MLPNN predictions. Achieved a predictive neural net for NBA wins with a 66% accuracy (industry standard at 60-70%).</p>
-
-                    <h3 class="major">Cloud and Local Approaches</h3>
-                    <p>This project includes both cloud and local data engineering options. You can choose to run the project entirely in the cloud for scalability or locally for more control over the environment. Both approaches are fully supported, giving users the flexibility to select the most appropriate setup for their needs.</p>
-
-                    <section id="cloudlocal" class="features">
-                        <article>
-                            <a href="#cloudlocal" class="image"><img src="images/cloud.jpg" alt="Cloud-based approach" /></a>
-                            <h3 class="major">Cloud-Based Data Engineering (Azure)</h3>
-                            <p>Using Microsoft Azure, this project offers scalable data ingestion, storage, and processing capabilities. The cloud setup allows for real-time data analysis with seamless integration across tools and services, perfect for larger datasets and teams working remotely.</p>
-                        </article>
-                        <article>
-                            <a href="#cloudlocal" class="image"><img src="images/local.jpg" alt="Local-based approach" /></a>
-                            <h3 class="major">Local Data Engineering</h3>
-                            <p>The local setup provides a controlled environment for smaller-scale analysis. It allows you to run all data processes and machine learning tasks on your local machine, providing greater flexibility for development and iteration before scaling up to the cloud if needed.</p>
-                        </article>
-                    </section>
-
-                    <h3 class="major">Neural Networks for Predictive Analysis</h3>
-                    <p>The project employs advanced neural network architectures for predicting player performance. Using historical data, these models are trained to forecast future player efficiency and contributions to team success. The models focus on key metrics such as points per game, assists, rebounds, and win shares.</p>
-                    
-                    <p>By leveraging deep learning, the project provides an accurate and scalable method to project future player performance, helping teams make informed decisions about trades, acquisitions, and starting lineups.</p>
-
-                    <h3 class="major">PowerBI Dashboard for Visualization</h3>
-                    <p>Data insights are visualized through a PowerBI dashboard, enabling users to easily explore trends and performance metrics. The dashboard presents key data, such as player efficiency ratings, win predictions, and comparative analyses between different players. This visualization layer allows decision-makers to quickly digest complex data and make informed decisions based on real-time analytics.</p>
-
-                    <section class="features">
-                        <article>
-                            <h3 class="major">Interactive PowerBI Dashboard</h3>
-                            <p>View dynamic insights on player performance, team comparisons, and predictive outcomes. The dashboard is fully interactive, allowing users to filter data based on time frames, players, or performance categories.</p>
-                        </article>
-                        <article>
-                            <h3 class="major">Basic Weekly Report</h3>
-                            <p>Weekly reports demonstrating work done, procedures, and data graphs over model progress.</p>
-                        </article>
-                    </section>
-
-                    <h4>Codebase Management</h4>
-                    <p>Maintained an organized codebase of 6 large modules on GitHub for a custom PyPi package.</p>
-
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Footer -->
-        <section id="footer">
-            <div class="inner">
-                <h2 class="major">Thank You for Your Interest!</h2>
-                <p>I'm excited to share my resume and projects with you. If you have any questions or would like to schedule an interview, feel free to contact me!</p>
-                <ul class="copyright">
-                    <li>Alexander Hernandez Jr.</li>
-                    <li>Data Engineer Utilizing Machine Learning</li>
-                    <li>Email: <a href="mailto:ahernandezjr0@gmail.com">ahernandezjr0@gmail.com</a> | Phone: 219-765-2438</li>
-                    <li>Location: Crown Point, IN</li>
-                    <li>GitHub: <a href="https://github.com/ahernandezjr">github.com/ahernandezjr</a></li>
-                </ul>
-            </div>
-        </section>
-
+<body id="top">
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <h1 class="logoname"><a href="index.html">A. Hernandez</a></h1>
     </div>
+    <nav id="mainav" class="fl_right"> 
+      <ul class="clear">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-image:url('images/bg.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <article>
+      <h3 class="heading">NBA Analytics Project</h3>
+      <p>Leveraging advanced data engineering techniques to analyze NBA player statistics and uncover valuable insights.</p>
+    </article>
+  </div>
+</div>
 
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <section>
+      <div class="sectiontitle">
+        <h6 class="heading font-x2">Project Overview</h6>
+      </div>
+
+      <article class="group project-section">
+        <div class="one_half first">
+          <figure><a class="imgover" href="#"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="NBA Analytics Architecture"></a>
+            <figcaption class="figure-caption">
+              <h6 class="heading">Project Architecture</h6>
+              <p>End-to-end ETL pipeline using Azure Cloud services for NBA data analysis.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="one_half">
+          <h6 class="heading">Project Goals</h6>
+          <p>The primary goal of this project is to analyze NBA player performance and determine the most valuable players for the Detroit Pistons. By leveraging both local and cloud-based data engineering solutions, the project empowers users with flexible options for processing and analyzing data at scale. The inclusion of neural networks for predictive analysis and a PowerBI dashboard for visual representation ensures a comprehensive solution for basketball analytics.</p>
+          
+          <h6 class="heading">Key Achievements</h6>
+          <ul>
+            <li>Developed an 8-step ETL Medallion pipeline using Azure SQL Server, Azure Data Lake, Azure Data Factory, Databricks, and Synapse database</li>
+            <li>Analyzed 12,000+ player observations using Time-Series (LSTM) and MLPNN predictions</li>
+            <li>Achieved a predictive neural net for NBA wins with a 66% accuracy (industry standard at 60-70%)</li>
+            <li>Maintained an organized codebase of 6 large modules on GitHub for a custom PyPi package</li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="sectiontitle">
+        <h6 class="heading font-x2">Technical Implementation</h6>
+      </div>
+
+      <article class="group project-section">
+        <div class="one_half first">
+          <h6 class="heading">Cloud-Based Data Engineering (Azure)</h6>
+          <p>Using Microsoft Azure, this project offers scalable data ingestion, storage, and processing capabilities. The cloud setup allows for real-time data analysis with seamless integration across tools and services, perfect for larger datasets and teams working remotely.</p>
+          
+          <h6 class="heading">Neural Networks for Predictive Analysis</h6>
+          <p>The project employs advanced neural network architectures for predicting player performance. Using historical data, these models are trained to forecast future player efficiency and contributions to team success. The models focus on key metrics such as points per game, assists, rebounds, and win shares.</p>
+        </div>
+        <div class="one_half">
+          <h6 class="heading">Local Data Engineering</h6>
+          <p>The local setup provides a controlled environment for smaller-scale analysis. It allows you to run all data processes and machine learning tasks on your local machine, providing greater flexibility for development and iteration before scaling up to the cloud if needed.</p>
+          
+          <h6 class="heading">PowerBI Dashboard for Visualization</h6>
+          <p>Data insights are visualized through a PowerBI dashboard, enabling users to easily explore trends and performance metrics. The dashboard presents key data, such as player efficiency ratings, win predictions, and comparative analyses between different players.</p>
+        </div>
+      </article>
+
+      <div class="sectiontitle">
+        <h6 class="heading font-x2">Project Demonstration</h6>
+      </div>
+
+      <article class="group project-section">
+        <div class="one_half first">
+          <figure><a class="imgover" href="#"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/model_predictions.png?raw=true" alt="Model Predictions"></a>
+            <figcaption class="figure-caption">
+              <h6 class="heading">Model Predictions</h6>
+              <p>Neural network predictions for player performance and team outcomes.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="one_half">
+          <h6 class="heading">Interactive PowerBI Dashboard</h6>
+          <p>View dynamic insights on player performance, team comparisons, and predictive outcomes. The dashboard is fully interactive, allowing users to filter data based on time frames, players, or performance categories.</p>
+          
+          <h6 class="heading">Weekly Reports</h6>
+          <p>Weekly reports demonstrating work done, procedures, and data graphs over model progress.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
+
+<!-- ################################################################################################ -->
+<div class="bgded overlay row4" style="background-image:url('images/bg.jpg');">
+  <footer id="footer" class="hoc clear"> 
+    <div class="one_quarter first">
+      <h1 class="logoname"><a href="index.html">A. Hernandez</a></h1>
+      <p>Data Engineer & ML Specialist passionate about building innovative solutions using cutting-edge technologies.</p>
+      <ul class="faico clear">
+        <li><a class="faicon-github" href="https://github.com/ahernandezjr/"><i class="fab fa-github"></i></a></li>
+        <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/alexander-hernandez-jr/"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="faicon-envelope" href="mailto:ahernandezjr0@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Quick Links</h6>
+      <ul class="nospace linklist">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="nba_project.html">NBA Analytics</a></li>
+        <li><a href="chatbot_project.html">AI Chatbot</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Featured Projects</h6>
+      <ul class="nospace clear latestimg">
+        <li><a class="imgover" href="nba_project.html"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="NBA Analytics"></a></li>
+        <li><a class="imgover" href="chatbot_project.html"><img src="images/robot.jpg" alt="AI Chatbot"></a></li>
+        <li><a class="imgover" href="#"><img src="images/fungi.jpg" alt="Fungi Research"></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Contact Information</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <p class="nospace btmspace-10">Email: <a href="mailto:ahernandezjr0@gmail.com">ahernandezjr0@gmail.com</a></p>
+            <p class="nospace btmspace-10">Phone: 219-765-2438</p>
+            <p class="nospace btmspace-10">Location: Crown Point, IN</p>
+            <p class="nospace btmspace-10">GitHub: <a href="https://github.com/ahernandezjr">github.com/ahernandezjr</a></p>
+          </article>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Alexander Hernandez Jr.</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </div>
+</div>
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
 </body>
-</html>
+</html> 

@@ -1,118 +1,203 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Projects - Alexander Hernandez</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Projects - Alexander Hernandez Jr.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Alexander Hernandez Jr. - Project Portfolio" />
+<meta name="keywords" content="data engineering, machine learning, projects, portfolio" />
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <h1 class="logoname"><a href="index.html">A. Hernandez</a></h1>
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <ul class="clear">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
 
-		<!-- Page Wrapper -->
-		<div id="page-wrapper">
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-image:url('images/bg.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <article>
+      <h3 class="heading">My Projects</h3>
+      <p>A collection of my recent projects showcasing data engineering, AI, and machine learning work.</p>
+    </article>
+  </div>
+</div>
 
-			<!-- Header -->
-			<header id="header" class="alt">
-				<div class="logo">
-					<a href="https://github.com/ahernandezjr/" class="icon">
-						<span class="fab fa-github"></span>
-					</a>
-					<a href="https://www.linkedin.com/in/alexander-hernandez-jr/" class="icon">
-						<span class="fab fa-linkedin"></span>
-					</a>
-					<a href="mailto:ahernandezjr0@gmail.com" class="icon">
-						<span class="fas fa-envelope"></span>
-					</a>
-				</div>
-				<h1><a href="index.html">A. Hernandez</a></h1>
-				<nav>
-					<a href="#menu">Menu</a>
-				</nav>
-			</header>
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <section>
+      <div class="sectiontitle">
+        <h6 class="heading font-x2">Project Portfolio</h6>
+      </div>
 
-			<!-- Menu -->
-			<nav id="menu">
-				<div class="inner">
-					<h2>Menu</h2>
-					<ul class="links">
-                        <li><a href="index.html">Homepage</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="experience.html">Experience</a></li>
-                        <li><a href="aboutme.html">About Me</a></li>
-					</ul>
-					<a href="#" class="close">Close</a>
-				</div>
-			</nav>
-
-			<!-- Main Content -->
-			<section id="wrapper">
-				<header>
-					<div class="inner">
-						<h2>My Projects</h2>
-						<p>A collection of my recent projects showcasing data engineering, AI, and machine learning work.</p>
-					</div>
-				</header>
-
-				<!-- Content -->
-				<div class="wrapper">
-					<div class="inner">
-
-						<!-- Project 1 -->
-                        <section>
-                            <h3 class="major">NBA Analytics Project</h3>
-                            <p>The NBA Analytics project analyzes player performance to uncover insights for the Detroit Pistons. This project uses advanced data engineering techniques both on cloud (Azure) and local setups. It employs neural networks to predict player stats and outcomes, offering a comprehensive solution for sports analytics. Additionally, it features a PowerBI dashboard for intuitive data visualization.</p>
-                            <p>Developed an 8-step ETL Medallion pipeline using Azure SQL Server, Azure Data Lake, Azure Data Factory, Databricks, and Synapse database, ending with Power BI dashboard visualizations. Analyzed 12,000+ player observations using Time-Series (LSTM) and MLPNN predictions. Achieved a predictive neural net for NBA wins with a 66% accuracy (industry standard at 60-70%). Maintained an organized codebase of 6 large modules on GitHub for a custom PyPi package.</p>
-                            <a href="nba_project.html" class="button">View Project Page</a>
-                            <a href="https://github.com/ahernandezjr/nba_analytics" class="button">View GitHub</a>
-                        </section>
-                        <br>
-
-                        <!-- Project 2 -->
-                        <section>
-                            <h3 class="major">AI-Powered Conversation Chatbot</h3>
-                            <p>The AI-Powered Conversation Chatbot is designed to handle customer interactions for a company, providing information and scheduling appointments. This project integrates the Twilio API for phone call capabilities, ChatGPT for natural language understanding, Azure and ElevenLabs for voice handling, and TF-IDF for relevant content extraction. The chatbot connects over 150+ webpages and intelligently responds to customer queries using prompt engineering.</p>
-                            <p>Developed a chatbot using Flask, Twilio, ChatGPT, ElevenLabs, and Google APIs to interact with potential customers, provide company-related information, and schedule appointments. Designed a RAG process using TF-IDF for efficient querying on 150+ scraped company web pages. Integrated a Large Language Model (LLM) through prompt engineering for accurate responses. Maintained a Docker image to deploy as an Azure App Service utilizing CI/CD.</p>
-                            <a href="chatbot_project.html" class="button">View Project Page</a>
-                            <a href="#" class="button">View GitHub [Private]</a>
-                        </section>
-                        <br>
-
-                        <!-- Project 3 -->
-                        <section>
-                            <h3 class="major">Fungi Article Acquisition Project</h3>
-                            <p>The Fungi Article Acquisition project automates the collection of research papers related to fungal species. By scraping research article websites, it builds a rich dataset for bioinformatics analysis, making the study of fungi more efficient and scalable. It uses Python scripts, APIs, and database management techniques to store, organize, and process the information.</p>
-                            <a href="https://github.com/ahernandezjr/fungi-paper-requests" class="button">View GitHub</a>
-                        </section>
-                        <br>
-
-					</div>
-				</div>
-			</section>
-
-			<!-- Footer -->
-            <section id="footer">
-                <div class="inner">
-                    <h2 class="major">Thank You for Your Interest!</h2>
-                    <p>I'm excited to share my resume and projects with you. If you have any questions or would like to schedule an interview, feel free to contact me!</p>
-                    <ul class="copyright">
-                        <li>Alexander Hernandez Jr.</li>
-                        <li>Data Engineer Utilizing Machine Learning</li>
-                        <li>Email: <a href="mailto:ahernandezjr0@gmail.com">ahernandezjr0@gmail.com</a> | Phone: 219-765-2438</li>
-                        <li>Location: Crown Point, IN</li>
-                        <li>GitHub: <a href="https://github.com/ahernandezjr">github.com/ahernandezjr</a></li>
-                    </ul>
-                </div>
-            </section>
-
+      <!-- NBA Analytics Project -->
+      <article class="group project-article">
+        <div class="one_half first">
+          <figure><a class="imgover" href="nba_project.html"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="NBA Analytics Project"></a>
+            <figcaption>
+              <h6 class="heading">NBA Analytics Pipeline</h6>
+              <p>End-to-end ETL pipeline for NBA game data analysis using Python, Azure Cloud, and Machine Learning for win predictions.</p>
+              <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">Azure</span>
+                <span class="tech">ML</span>
+                <span class="tech">Docker</span>
+              </div>
+            </figcaption>
+          </figure>
         </div>
+        <div class="one_half">
+          <h6 class="heading">Project Overview</h6>
+          <p>The NBA Analytics project analyzes player performance to uncover insights for the Detroit Pistons. This project uses advanced data engineering techniques both on cloud (Azure) and local setups. It employs neural networks to predict player stats and outcomes, offering a comprehensive solution for sports analytics. Additionally, it features a PowerBI dashboard for intuitive data visualization.</p>
+          <p>Key achievements:</p>
+          <ul>
+            <li>Developed an 8-step ETL Medallion pipeline using Azure SQL Server, Azure Data Lake, Azure Data Factory, Databricks, and Synapse database</li>
+            <li>Analyzed 12,000+ player observations using Time-Series (LSTM) and MLPNN predictions</li>
+            <li>Achieved a predictive neural net for NBA wins with a 66% accuracy (industry standard at 60-70%)</li>
+            <li>Maintained an organized codebase of 6 large modules on GitHub for a custom PyPi package</li>
+          </ul>
+          <footer>
+            <a class="btn" href="nba_project.html">View Project Details</a>
+            <a class="btn" href="https://github.com/ahernandezjr/nba_analytics">View GitHub</a>
+          </footer>
+        </div>
+      </article>
 
-    <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-	</body>
-</html>
+      <!-- AI Chatbot Project -->
+      <article class="group project-article">
+        <div class="one_half first">
+          <figure><a class="imgover" href="chatbot_project.html"><img src="images/robot.jpg" alt="AI Telephone Assistant"></a>
+            <figcaption>
+              <h6 class="heading">AI-Powered Conversation Chatbot</h6>
+              <p>Healthcare communication solution using GPT-4 and speech recognition.</p>
+              <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">GPT-4</span>
+                <span class="tech">Twilio</span>
+                <span class="tech">Azure</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="one_half">
+          <h6 class="heading">Project Overview</h6>
+          <p>The AI-Powered Conversation Chatbot is designed to handle customer interactions for a company, providing information and scheduling appointments. This project integrates the Twilio API for phone call capabilities, ChatGPT for natural language understanding, Azure and ElevenLabs for voice handling, and TF-IDF for relevant content extraction. The chatbot connects over 150+ webpages and intelligently responds to customer queries using prompt engineering.</p>
+          <p>Key achievements:</p>
+          <ul>
+            <li>Developed a chatbot using Flask, Twilio, ChatGPT, ElevenLabs, and Google APIs</li>
+            <li>Designed a RAG process using TF-IDF for efficient querying on 150+ scraped company web pages</li>
+            <li>Integrated a Large Language Model (LLM) through prompt engineering for accurate responses</li>
+            <li>Maintained a Docker image to deploy as an Azure App Service utilizing CI/CD</li>
+          </ul>
+          <footer>
+            <a class="btn" href="chatbot_project.html">View Project Details</a>
+            <a class="btn" href="#">View GitHub [Private]</a>
+          </footer>
+        </div>
+      </article>
+
+      <!-- Fungi Research Project -->
+      <article class="group project-article">
+        <div class="one_half first">
+          <figure><a class="imgover" href="#"><img src="images/fungi.jpg" alt="Fungi Article Analysis"></a>
+            <figcaption>
+              <h6 class="heading">Fungi Article Analysis</h6>
+              <p>ML models processing 4M+ research articles for comprehensive analysis.</p>
+              <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">NLP</span>
+                <span class="tech">PyTorch</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="one_half">
+          <h6 class="heading">Project Overview</h6>
+          <p>The Fungi Article Acquisition project automates the collection of research papers related to fungal species. By scraping research article websites, it builds a rich dataset for bioinformatics analysis, making the study of fungi more efficient and scalable. It uses Python scripts, APIs, and database management techniques to store, organize, and process the information.</p>
+          <footer>
+            <a class="btn" href="https://github.com/ahernandezjr/fungi-paper-requests">View GitHub</a>
+          </footer>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
+
+<!-- ################################################################################################ -->
+<div class="bgded overlay row4" style="background-image:url('images/bg.jpg');">
+  <footer id="footer" class="hoc clear"> 
+    <div class="one_quarter first">
+      <h1 class="logoname"><a href="index.html">A. Hernandez</a></h1>
+      <p>Data Engineer & ML Specialist passionate about building innovative solutions using cutting-edge technologies.</p>
+      <ul class="faico clear">
+        <li><a class="faicon-github" href="https://github.com/ahernandezjr/"><i class="fab fa-github"></i></a></li>
+        <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/alexander-hernandez-jr/"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="faicon-envelope" href="mailto:ahernandezjr0@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Quick Links</h6>
+      <ul class="nospace linklist">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="nba_project.html">NBA Analytics</a></li>
+        <li><a href="chatbot_project.html">AI Chatbot</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Featured Projects</h6>
+      <ul class="nospace clear latestimg">
+        <li><a class="imgover" href="nba_project.html"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="NBA Analytics"></a></li>
+        <li><a class="imgover" href="chatbot_project.html"><img src="images/robot.jpg" alt="AI Chatbot"></a></li>
+        <li><a class="imgover" href="#"><img src="images/fungi.jpg" alt="Fungi Research"></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Contact Information</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <p class="nospace btmspace-10">Email: <a href="mailto:ahernandezjr0@gmail.com">ahernandezjr0@gmail.com</a></p>
+            <p class="nospace btmspace-10">Phone: 219-765-2438</p>
+            <p class="nospace btmspace-10">Location: Crown Point, IN</p>
+            <p class="nospace btmspace-10">GitHub: <a href="https://github.com/ahernandezjr">github.com/ahernandezjr</a></p>
+          </article>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Alexander Hernandez Jr.</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </div>
+</div>
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html> 

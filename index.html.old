@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--
+Template Name: Chillaid
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="en">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Alexander Hernandez Jr. - Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Alexander Hernandez Jr. - Data Engineer and Machine Learning Specialist Portfolio" />
+<meta name="keywords" content="data engineer, machine learning, portfolio, NBA analytics, AI chatbot" />
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1 class="logoname"><a href="index.html">A. Hernandez</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-image:url('images/bg.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading">Alexander Hernandez Jr.</h3>
+      <p>Data Engineer & ML Specialist</p>
+      <p>M.S. Computer Science | Data Pipeline Architecture | Machine Learning</p>
+      <footer>
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn" href="mailto:ahernandezjr0@gmail.com">Contact Me</a>
+      </footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <section id="introblocks">
+      <ul class="nospace group btmspace-80 elements elements-four">
+        <li class="one_quarter">
+          <article><a href="projects.html"><i class="fas fa-code"></i></a>
+            <h6 class="heading">Projects</h6>
+            <p>Check out my diverse projects showcasing data engineering, machine learning, and software development.</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a href="experience.html"><i class="fas fa-briefcase"></i></a>
+            <h6 class="heading">Experience</h6>
+            <p>With hands-on experience in various roles, I have developed algorithms, engineered data pipelines, and collaborated in agile environments.</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a href="aboutme.html"><i class="fas fa-user"></i></a>
+            <h6 class="heading">About Me</h6>
+            <p>When I'm not working with data, I enjoy playing guitar, writing, and exploring new places with those close to me.</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a href="#highlights"><i class="fas fa-star"></i></a>
+            <h6 class="heading">Highlights</h6>
+            <p>Featured projects and achievements showcasing my expertise in data engineering and machine learning.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <!-- ################################################################################################ -->
+    <section class="group shout">
+      <div class="one_half first">
+        <h3 class="heading">Welcome to My Portfolio</h3>
+        <p>I'm a Data Engineer and Machine Learning Specialist with a passion for building innovative solutions. My expertise spans from developing end-to-end data pipelines to implementing cutting-edge AI models. I believe in creating efficient, scalable solutions that drive business value.</p>
+        <footer>
+          <a class="btn" href="resume.pdf">Download Resume</a>
+        </footer>
+      </div>
+      <div class="one_half">
+        <img src="images/me_headshot.jpg" alt="Alexander Hernandez Jr.">
+      </div>
+    </section>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay light" style="background-image:url('images/bg.jpg');">
+  <section id="services" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <p class="nospace font-xs">Featured Space</p>
+      <h6 class="heading font-x2">Project Highlights</h6>
+    </div>
+    <ul class="nospace group elements elements-three">
+      <li class="one_third">
+        <article>
+          <figure class="clear">
+            <img src="images/robot.jpg" alt="AI Telephone Assistant">
+            <figcaption>
+              <h6 class="heading">AI Telephone Assistant</h6>
+              <p>Healthcare communication solution using GPT-4 and speech recognition.</p>
+              <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">GPT-4</span>
+                <span class="tech">Twilio</span>
+                <span class="tech">Azure</span>
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <figure class="clear">
+            <img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="NBA Analytics Pipeline">
+            <figcaption>
+              <h6 class="heading">NBA Analytics Pipeline</h6>
+              <p>End-to-end ETL pipeline for NBA game data analysis and win predictions.</p>
+              <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">Azure</span>
+                <span class="tech">ML</span>
+                <span class="tech">Docker</span>
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <figure class="clear">
+            <img src="images/fungi.jpg" alt="Fungi Article Analysis">
+            <figcaption>
+              <h6 class="heading">Fungi Article Analysis</h6>
+              <p>ML models processing 4M+ research articles for comprehensive analysis.</p>
+              <div class="tech-stack">
+                <span class="tech">Python</span>
+                <span class="tech">NLP</span>
+                <span class="tech">PyTorch</span>
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<!-- Featured Space General Highlights -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <div class="sectiontitle">
+      <p class="nospace font-xs">Highlights</p>
+      <h6 class="heading font-x2">Professional Journey</h6>
+    </div>
+    <ul class="nospace group elements elements-three">
+      <li class="one_third">
+        <article>
+          <h6 class="heading">Featured Projects</h6>
+          <p>Led development of an AI-powered telephone assistant for healthcare communication and created an end-to-end NBA analytics pipeline for game predictions.</p>
+          <div class="tech-stack">
+            <span class="tech">AI/ML</span>
+            <span class="tech">Data Engineering</span>
+            <span class="tech">Cloud</span>
+          </div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <h6 class="heading">Professional Experience</h6>
+          <p>Gained hands-on experience through three key positions: Data Engineer at a healthcare tech company, ML Research Intern at a biotech firm, and Software Development Intern at a financial services company.</p>
+          <div class="tech-stack">
+            <span class="tech">Data Engineering</span>
+            <span class="tech">AI/ML</span>
+            <span class="tech">Software Development</span>
+          </div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <h6 class="heading">Personal Projects</h6>
+          <p>Exploring game development in Unreal Engine 5, learning Jira for project management, and implementing Agile Scrum methodologies in personal projects.</p>
+          <div class="tech-stack">
+            <span class="tech">Unreal Engine 5</span>
+            <span class="tech">Jira</span>
+            <span class="tech">Agile</span>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <p class="nospace font-xs">About Me</p>
+      <h6 class="heading font-x2">Personal Background</h6>
+    </div>
+    <ul class="nospace group team">
+      <li class="one_third first">
+        <figure><a class="imgover" href="aboutme.html"><img src="images/aboutme.jpg" alt="About Me"></a>
+          <figcaption><strong>Passions & Interests</strong> <em>Guitar, Writing, Travel</em></figcaption>
+        </figure>
+      </li>
+      <li class="one_third">
+        <figure><a class="imgover" href="aboutme.html"><img src="images/experience.jpg" alt="Experience"></a>
+          <figcaption><strong>Tech Interests</strong> <em>Data Engineering, Building Computers, and Game Development</em></figcaption>
+        </figure>
+      </li>
+      <li class="one_third">
+        <figure><a class="imgover" href="aboutme.html"><img src="images/game_dev.jpg" alt="Alexander Hernandez Jr."></a>
+          <figcaption><strong>Education</strong> <em>Learning Game Development</em></figcaption>
+        </figure>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay row4" style="background-image:url('images/bg.jpg');">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h1 class="logoname"><a href="index.html">A. Hernandez</a></h1>
+      <p>Data Engineer & ML Specialist passionate about building innovative solutions using cutting-edge technologies.</p>
+      <ul class="faico clear">
+        <li><a class="faicon-github" href="https://github.com/ahernandezjr/"><i class="fab fa-github"></i></a></li>
+        <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/alexander-hernandez-jr/"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="faicon-envelope" href="mailto:ahernandezjr0@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Quick Links</h6>
+      <ul class="nospace linklist">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="nba_project.html">NBA Analytics</a></li>
+        <li><a href="chatbot_project.html">AI Chatbot</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Featured Projects</h6>
+      <ul class="nospace clear latestimg">
+        <li><a class="imgover" href="nba_project.html"><img src="https://github.com/ahernandezjr/nba_analytics/blob/main/data/graphs/NBA_Analytics_Architecture.png?raw=true" alt="NBA Analytics"></a></li>
+        <li><a class="imgover" href="chatbot_project.html"><img src="images/robot.jpg" alt="AI Chatbot"></a></li>
+        <li><a class="imgover" href="#"><img src="images/fungi.jpg" alt="Fungi Research"></a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Contact Information</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <p class="nospace btmspace-10">Email: <a href="mailto:ahernandezjr0@gmail.com">ahernandezjr0@gmail.com</a></p>
+            <p class="nospace btmspace-10">Phone: 219-765-2438</p>
+            <p class="nospace btmspace-10">Location: Crown Point, IN</p>
+            <p class="nospace btmspace-10">GitHub: <a href="https://github.com/ahernandezjr">github.com/ahernandezjr</a></p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Alexander Hernandez Jr.</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<!-- / Homepage specific -->
+</body>
+</html>
